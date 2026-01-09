@@ -1,0 +1,121 @@
+INNER-LOOP-OS LICENSE — DR-X-V3
+(CC-inspired, but custom and sovereign)
+
+Copyright (c) 2026 Dr. X
+
+This license governs the files, protocols, and textual artifacts in the repository
+“inner-loop-os” (the “Work”).
+
+This is not Creative Commons.
+This is a CC-inspired license with additional constraints designed to protect
+human agency and prevent coercive uses.
+
+---
+
+## 1) GRANT OF RIGHTS
+
+You are granted a worldwide, royalty-free, non-exclusive license to:
+- use, copy, and distribute the Work
+- modify and create derivative works from the Work
+- publish the Work or derivatives
+- use the Work for commercial purposes
+
+Subject to the conditions below.
+
+---
+
+## 2) ATTRIBUTION (MANDATORY)
+
+If you share, publish, or distribute the Work (or a derivative), you must:
+- credit: “inner-loop-os (Dr. X)”
+- include a reference to the original Work in a reasonable, visible location
+- state whether changes were made
+- preserve the NOTICE of this license in any redistributed form
+
+Attribution must be honest and not misleading.
+Silent derivation is prohibited.
+
+---
+
+## 3) SHARE-ALIKE FOR MANIFESTS (PHILOSOPHY LOCK)
+
+If you modify any file that functions as the system’s bootloader or operating
+philosophy (including but not limited to: `DR-X-MANIFEST.md`, `ETHOS.md`,
+`DECISION.md`, `RETRO.md`), then:
+
+- you must publish those modified files under this same license (DR-X-V3), and
+- you must clearly label the modified version as “Modified” and include a
+  change summary.
+
+This clause applies to philosophy-bearing files only.
+It does NOT force you to open-source your entire product or codebase.
+
+---
+
+## 4) DIVERGENCE RULE (PREVENT CONFUSION)
+
+If your derivative materially diverges from the core principles of human agency,
+reversibility, and non-coercion, you must do at least one of the following:
+- rename the system (do not call it “inner-loop-os”), OR
+- clearly mark your fork/template as “DIVERGENT” in the README and manifest
+
+Material divergence includes (examples):
+- removing exit paths
+- adding coercive automation
+- adding surveillance-first behavior
+- introducing dark patterns
+
+---
+
+## 5) PROHIBITED USES (HARD NO)
+
+You may NOT use the Work (or derivatives) to design, build, or facilitate:
+- surveillance systems (including non-consensual monitoring, profiling, or tracking)
+- coercive, manipulative, or non-consensual automation
+- dark patterns intended to extract time, money, attention, or data
+- systems that intentionally remove meaningful exit paths
+- deceptive interfaces or concealed data collection
+
+If a use case is ambiguous, interpret this section in favor of human agency.
+
+---
+
+## 6) NO ENDORSEMENT
+
+Use of the Work does not imply endorsement by Dr. X.
+You may not claim or suggest endorsement without explicit written permission.
+
+---
+
+## 7) NO WARRANTY
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+---
+
+## 8) LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR
+IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+---
+
+## 9) INTERPRETATION
+
+This license is intended to be enforceable to the maximum extent permitted by
+applicable law. If any provision is held unenforceable, the remaining provisions
+remain in effect.
+
+---
+
+## 10) NOTICE
+
+Name of Work: inner-loop-os
+License: DR-X-V3 (Human-Agency-First)
+Steward: Dr. X
+
+If you build something from this, keep the lineage visible.
