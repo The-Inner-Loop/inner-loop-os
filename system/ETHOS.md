@@ -110,4 +110,4 @@ If any answer is “no,” revise.
 ---
 
 → NEXT ACTION:
-If ethics are unclear, open ./DECISION.md and run the decision protocol.
+If ethics are unclear, open ./system/DECISION.md and run the decision protocol.
