@@ -78,7 +78,7 @@ If files conflict across locations, the system must stop and ask for a single so
 
 ⸻
 
-Modes (semantic switches)
+## Modes (semantic switches)
 
 Set a mode explicitly when needed:
 
@@ -91,6 +91,34 @@ Available modes:
 	•	DEBUGGER: isolate issues, ask precision questions
 	•	WRITER: docs that execute, crisp articulation
 	•	GHOST: minimal output, artifacts only
+
+### Common Mode Patterns
+
+Debug a stalled project:
+```
+MODE: DEBUGGER
+INIT
+```
+
+Generate naming/copy for features:
+```
+MODE: CREATOR
+Name this authentication flow
+```
+
+Produce documentation:
+```
+MODE: WRITER
+Document the API endpoints
+```
+
+Ship with minimal commentary:
+```
+MODE: GHOST
+INIT
+```
+
+Note: Modes reset each message. Restate the mode to persist it.
 
 ⸻
 

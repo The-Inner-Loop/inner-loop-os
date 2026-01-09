@@ -31,6 +31,16 @@ If no, what prevented shipment?
 
 ---
 
+## 2.5) WINS (WHAT SHIPPED)
+Concrete artifacts delivered:
+- …
+- …
+
+This section exists because shipped work deserves explicit recognition.
+Skip if nothing shipped.
+
+---
+
 ## 3) SIGNALS (WHAT WORKED)
 List the signals that increased momentum:
 - …
