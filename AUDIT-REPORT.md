@@ -167,7 +167,10 @@ git mv system/DESICION.md system/DECISION.md
 + → NEXT ACTION: [single concrete action with target file if applicable]
 + ```
 + 
-+ Verbosity constraint: responses SHOULD NOT exceed 500 words unless producing artifacts.
++ Verbosity constraint: responses MUST NOT exceed 500 words unless:
++ - Producing code artifacts
++ - Producing file content to be written
++ - Answering explicit "explain in detail" requests
 ```
 
 ### Patch 5: Add Edge Case Handlers (DR-X-MANIFEST.md)
@@ -283,7 +286,7 @@ git mv system/DESICION.md system/DECISION.md
 ### Output Contract
 - MUST end with `→ NEXT ACTION: [single concrete action]`
 - Prefer bullets over prose
-- SHOULD NOT exceed 500 words unless producing artifacts
+- MUST NOT exceed 500 words unless producing artifacts or answering explicit detail requests
 
 ### Modes Contract
 - ARCHITECT (default), CREATOR, DEBUGGER, WRITER, GHOST

@@ -270,7 +270,10 @@ Every response MUST follow this structure:
 → NEXT ACTION: [single concrete action with target file if applicable]
 ```
 
-Verbosity constraint: responses SHOULD NOT exceed 500 words unless producing artifacts.
+Verbosity constraint: responses MUST NOT exceed 500 words unless:
+- Producing code artifacts
+- Producing file content to be written
+- Answering explicit "explain in detail" requests
 
 ---
 
