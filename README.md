@@ -33,6 +33,7 @@ Repo Structure (recommended)
 
 Keep boot files at root. Keep stable rules in /system. Keep templates in /templates. Keep your live project state in /work.
 
+```
 inner-loop-os/
 ├─ README.md
 ├─ DR-X-MANIFEST.md          # bootloader (must stay at root)
@@ -51,6 +52,7 @@ inner-loop-os/
    ├─ STATUS.md
    ├─ PRD.md
    └─ UX.md
+```
 
 Why /work?
 
@@ -62,17 +64,22 @@ LLMs can resume cleanly without mixing “rules” with “current reality.”
 How the bootloader works (deterministic)
 
 On INIT, the system searches for control files using this path priority:
+
+```
 	1.	./work/
 	2.	./ (repo root)
 	3.	./system/
 	4.	./templates/
+```
 
 Then it inspects files in this order:
+```
 	1.	GOAL.md — the north star
 	2.	STATUS.md — current state (resume point)
 	3.	PRD.md — what’s being built
 	4.	UX.md — human layer / friction constraints
 	5.	README.md — structure/history
+```
 
 If files conflict across locations, the system must stop and ask for a single source of truth.
 
@@ -86,11 +93,13 @@ MODE: DEBUGGER
 INIT
 
 Available modes:
+```
 	•	ARCHITECT (default): structure, interfaces, constraints
 	•	CREATOR: naming, synthesis, momentum
 	•	DEBUGGER: isolate issues, ask precision questions
 	•	WRITER: docs that execute, crisp articulation
 	•	GHOST: minimal output, artifacts only
+```
 
 ### Common Mode Patterns
 
@@ -161,10 +170,13 @@ That alone enables deterministic resuming and prevents prompt drift.
 License
 
 This repo uses DR-X-V3 (CC-inspired but custom):
+
+```
 	•	attribution required
 	•	modified manifest files must preserve the license
 	•	prohibits surveillance, coercion, dark patterns
 	•	requires clear divergence labeling
+```
 
 See LICENSE.
 
