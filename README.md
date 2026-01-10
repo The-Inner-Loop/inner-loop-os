@@ -134,35 +134,40 @@ Note: Modes reset each message. Restate the mode to persist it.
 Recommended workflows
 
 Start a new challenge (clean)
+```
 	1.	Copy templates into /work
 	2.	Fill work/GOAL.md
 	3.	Create work/STATUS.md with state = DEFINING
 	4.	Run INIT
-
+```
 Resume work (fast)
+```
 	1.	Update work/STATUS.md (blocker + next step)
 	2.	Run INIT
-
+```
 High-stakes choice
+```
 	1.	Complete system/DECISION.md
 	2.	Apply decision
 	3.	Update work/STATUS.md
 	4.	Run INIT
-
+```
 After shipping or failing
+```
 	1.	Complete system/RETRO.md
 	2.	Apply the patch
 	3.	Update work/STATUS.md
 	4.	Run INIT
-
+```
 ⸻
 
 Minimal setup (if you only keep 2 files)
 
 If you only keep two files, keep:
+```
 	•	DR-X-MANIFEST.md
 	•	work/STATUS.md
-
+```
 That alone enables deterministic resuming and prevents prompt drift.
 
 ⸻
